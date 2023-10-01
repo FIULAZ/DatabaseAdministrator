@@ -275,6 +275,11 @@ EXEC CreateNewShipment
 -- Menampilkan hasil variabel keluaran @ShipmentID
 PRINT 'New Shipment ID: ' + @ShipmentID;
 
+
+
+
+
+
 CREATE PROCEDURE AddProductToShipment
     @ShipmentID NVARCHAR(10),
     @ProductNo INT,
